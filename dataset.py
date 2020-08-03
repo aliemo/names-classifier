@@ -1,3 +1,5 @@
+# Dataset Class for Produce Data from Files (Raw Data)
+
 from __future__ import unicode_literals, print_function, division
 
 import os
@@ -8,7 +10,7 @@ import utils
 from utils import Data
 import random
 
-
+## Class for Generate Names Classify for Nations (pytorch usable)
 class NamesNationalityDataset:
     def __init__(self, device, _nations, _path, _x_train, _x_test):
         self.device = device
